@@ -1,0 +1,25 @@
+n,operacion,estructura_us,lineal_us,aceleracion
+1000,ISBN exacto (hash vs lineal),0.06,47.16,783.9
+1000,Año exacto (AVL vs lineal),1.02,38.08,37.3
+1000,Rango 1980-1985 (AVL vs lineal),11.14,61.84,5.6
+1000,Prefijo 'luna mar 1' (Trie vs lineal),2.42,43.56,18.0
+1000,Autor + género (conjuntos vs lineal),2.59,44.64,17.2
+# n=1000: nodos AVL=126 altura AVL=9 log2(nodos)=6.98
+10000,ISBN exacto (hash vs lineal),0.06,492.51,8059.0
+10000,Año exacto (AVL vs lineal),6.75,375.83,55.6
+10000,Rango 1980-1985 (AVL vs lineal),81.97,602.04,7.3
+10000,Prefijo 'luna mar 1' (Trie vs lineal),7.31,449.09,61.5
+10000,Autor + género (conjuntos vs lineal),3.26,408.60,125.3
+# n=10000: nodos AVL=126 altura AVL=8 log2(nodos)=6.98
+100000,ISBN exacto (hash vs lineal),0.06,4708.14,76306.9
+100000,Año exacto (AVL vs lineal),65.36,3735.09,57.1
+100000,Rango 1980-1985 (AVL vs lineal),2020.46,6151.52,3.0
+100000,Prefijo 'luna mar 1' (Trie vs lineal),55.42,4436.60,80.0
+100000,Autor + género (conjuntos vs lineal),1.61,3887.73,2418.1
+# n=100000: nodos AVL=126 altura AVL=9 log2(nodos)=6.98
+
+n_claves,altura_avl,log2n,cota_1.44log2n
+1000,10,9.97,14.35
+10000,14,13.29,19.13
+100000,17,16.61,23.92
+1000000,20,19.93,28.70
